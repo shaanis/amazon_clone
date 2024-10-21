@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.offcanvas-header {
+    background-color: rgb(29, 4, 59);
+}
+.offcanvas-body{
+    max-height: 100vh; overflow-y: auto;
+}
+
+.profile {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.trendItems {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+#alignTrend {
+    display: flex;
+    justify-content: space-between;
+}
+
+#alignTrend p {
+    margin-top: -3.5px;
+    font-weight:500
+}
+
+#alignTrend i {
+    margin-top: 3px;
+}
+
+#offcanLink{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.trendItems a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.trendItems:hover {
+    background-color: rgb(181, 178, 178);
+    color: black;
+
+}
+
+
+
+.top {
+    background: rgb(31, 31, 41);
+    height: 50px;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    /* overflow-x: scroll; */
+    white-space: nowrap;
+
+
+}
+
+.top::-webkit-scrollbar {
+    display: none;
+}
+
+.pin {
+    color: rgb(108, 110, 111);
+    font-size: 11px;
+
+}
+
+a .icon {
+    font-size: 12px;
+    margin-top: -18px;
+}
+
+.searchbar {
+    position: relative;
+    width: 50vw;
+    background-color: white;
+    height: 33px;
+    margin: 9px;
+    margin-left: 15px;
+    border-radius: 4px;
+    /* overflow: hidden; */
+
+
+}
+
+.srchdrop .btn {
+    height: 33px;
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    width: 48px;
+    position: absolute;
+    font-size: 12px;
+    color: rgb(76, 75, 75);
+    /* margin-top: -4.5px; */
+
+}
+
+.srch {
+    align-content: center;
+    border: none;
+    font-size: 14px;
+    width: 36vw;
+    border-color: white;
+    /* text-align: center; */
+}
+
+input:focus {
+    outline: none;
+    /* Removes the default outline */
+    border: none;
+    /* Removes the border */
+}
+
+.iconbtn {
+    background-color: rgba(234, 172, 118, 0.997);
+    width: 40px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    border: none;
+}
+
+/* .custom-dropdown {
+    align-content: center;
+    margin: 5px;
+    outline: none;
+    border: none;
+
+} */
+
+button :focus {
+    outline: none;
+    border: none;
+}
+
+button span {
+    font-size: 12px;
+}
+.dropdown-menu {
+    width: 380px;
+}
+
+.signin {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(222, 221, 221);
+
+}
+
+.accList {
+    font-size: 14px;
+    margin-left: 27px;
+
+}
+.accRightside{
+    margin-left: -80px;
+}
+.order a {
+    text-align: justify;
+    text-decoration: none;
+
+}
+
+.accList1 {
+    font-size: 14px;
+}
+
+.cart {
+    margin-left: 30px;
+    display: flex;
+    position: relative;
+}
+
+.cartcontent {
+    position: absolute;
+    margin-left: 68px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.count1 {
+    text-decoration: none;
+    font-size: 12px;
+    background-color: orangered;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 60px;
+}
+
+.navbar1 {
+
+    background-color: rgb(2, 2, 64);
+    margin-top: 50px;
+    width: 100%;
+    padding: 5px;
+    /* position: absolute; */
+    /* Place it below the top bar */
+    z-index: 0;
+    /* Ensure it is above other content */
+}
+.carButton{
+    margin-top: -100px;
+   
+
+    border: 10px solid #007bff; /* Border color and thickness */
+    border-radius: 5px;        /* Optional: rounded corners */
+    padding: 35px;              /* Optional: padding for spacing */
+    background-color: transparent;
+}
+
+
+/* .greatSale {
+    background-image: url('./images/amazon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    overflow-x: scroll;
+    height: 100%;
+    display: flex;
+    animation: bgChange 20s linear infinite ;
+
+} */
+
+.greatSale {
+    position: relative; 
+    overflow-x: auto; 
+    width: 100%;
+    height: 100vh;
+    white-space: nowrap; 
+}
+
+.carousel-inner {
+    display: flex; 
+}
+
+.carousel-item {
+    flex: 0 0 auto; 
+    width: 100%; 
+}
+
+
+
+.allCard {
+    position: absolute;
+     z-index: 10; 
+    display: flex;
+    /* grid-template-columns: repeat(1, 1fr); */
+    margin-top: -400px;
+    margin-left: 120px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cards {
+    /* position: absolute; */
+    height: 280px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.cards h3 {
+    margin-top: 10px;
+    font-size: .75rem;
+    font-weight: 650;
+}
+
+.shopImg img {
+    margin-top: 10px;
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+}
+
+.explore {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(47, 249, 124);
+}
+
+.explore:hover {
+    color: red;
+}
+
+.allCard a {
+    text-decoration: none;
+}
+
+
+
+
