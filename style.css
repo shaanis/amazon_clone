@@ -6,11 +6,28 @@
 .section1 {
     height: 100vh;
     width: 100vw;
+
+}
+body{
+    overflow-x: hidden;
+}
+.navbar1 {
+
+    background-color: rgb(2, 2, 64);
+    padding-top: 200px;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    margin-top: 40px;
+    z-index: 11;
+  
 }
 
-.offcanvas-header {
+ .offcanvas-header {
+    margin-top: 40px;
     background-color: rgb(29, 4, 59);
 }
+
 .offcanvas-body{
     max-height: 100vh; overflow-y: auto;
 }
@@ -32,7 +49,7 @@
     text-align: center;
 }
 
-#alignTrend {
+ #alignTrend {
     display: flex;
     justify-content: space-between;
 }
@@ -62,6 +79,14 @@
     background-color: rgb(181, 178, 178);
     color: black;
 
+} 
+.digi a{
+    text-decoration: none;
+    color: black;
+}
+.shopcat a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -72,7 +97,7 @@
     align-content: center;
     position: fixed;
     width: 100%;
-    z-index: 10;
+    z-index: 1050;
     top: 0;
     /* overflow-x: scroll; */
     white-space: nowrap;
@@ -225,17 +250,7 @@ button span {
     margin-left: 60px;
 }
 
-.navbar1 {
 
-    background-color: rgb(2, 2, 64);
-    margin-top: 50px;
-    width: 100%;
-    padding: 5px;
-    /* position: absolute; */
-    /* Place it below the top bar */
-    z-index: 0;
-    /* Ensure it is above other content */
-}
 .carButton{
     margin-top: -100px;
    
@@ -246,26 +261,13 @@ button span {
     background-color: transparent;
 }
 
-
-/* .greatSale {
-    background-image: url('./images/amazon.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: local;
-    background-repeat: no-repeat;
-    overflow-x: scroll;
-    height: 100%;
-    display: flex;
-    animation: bgChange 20s linear infinite ;
-
-} */
-
 .greatSale {
     position: relative; 
-    overflow-x: auto; 
     width: 100%;
     height: 100vh;
     white-space: nowrap; 
+    padding-top: 80px;
+  
 }
 
 .carousel-inner {
@@ -273,22 +275,22 @@ button span {
 }
 
 .carousel-item {
-    flex: 0 0 auto; 
-    width: 100%; 
+    flex: 0 0 auto;
+    width: 100%;  
 }
-
+   
 
 
 .allCard {
     position: absolute;
      z-index: 10; 
     display: flex;
-    /* grid-template-columns: repeat(1, 1fr); */
     margin-top: -400px;
     margin-left: 120px;
     align-content: center;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -300,19 +302,30 @@ button span {
     margin-left: 50px;
     text-align: center;
     z-index: 1;
+    margin-top: 50px;
 
 }
 
-.cards h3 {
+
+.cardHead{
     margin-top: 10px;
     font-size: .75rem;
     font-weight: 650;
+    text-align: justify;
+    line-height: 16.5px;
+    margin-left: 35px;
+    color: black;
+    
+}
+#card2 .cardHead{
+    padding-top: 8px;
+    margin-left: 15px;
 }
 
 .shopImg img {
     margin-top: 10px;
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 190px;
     background-size: cover;
 }
 
@@ -320,7 +333,9 @@ button span {
     cursor: pointer;
     font-size: 13px;
     font-weight: 600;
-    color: rgb(47, 249, 124);
+    color: rgb(34, 122, 49);
+    margin-left: -110px;
+    
 }
 
 .explore:hover {
@@ -331,6 +346,54 @@ button span {
     text-decoration: none;
 }
 
+.girls{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    margin-top: -15px;
+}
+.girlsItem{
+  margin-top: 20px;
+}
 
+.girlsHead{
+    text-align: start;
+    margin-left: 14px;
+    font-size: 12px;
+}
+.sec2{
+    background-color: rgb(247, 228, 24);
+    height: 100vh;
+    margin-top: -20px;
+}
+  
 
+@media(max-width:1200px){
+    .allCard{
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-top: -400px;
+    }
+    .cards{
+        margin: 10px;
+    }
+    .sec2{
+        
+        margin-top: -350px;
+    }
+}
 
+/* @media(max-width:1000px){
+    .allCard{
+        flex-wrap: wrap;
+        margin-left: -50px;
+        margin-top: -500px;
+    }
+    .cards{
+        margin: 10px;
+    }
+    .sec2{
+        
+        margin-top: -350px;
+    }
+} */
