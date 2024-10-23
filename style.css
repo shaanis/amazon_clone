@@ -569,6 +569,7 @@ footer a{
     grid-template-columns: repeat(4,1fr);
     color: white;
     padding: 40px;
+    margin-top: 180px;
 }
 .knowUs{
     display: flex;
@@ -612,6 +613,37 @@ footer a{
     margin-top: 13px;
     margin-left: 5px;
     font-size: 12px;
+}
+.blackOuter{
+   
+    background-color: black;
+    height: 300px;
+    padding-top: 20px;
+}
+.blackFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    
+}
+.blackFooter a{
+    color: white;
+}
+.blackFooter a:hover{
+    text-decoration: underline;
+}
+.condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.condition a:hover{
+    text-decoration: underline;
+}
+.copy{
+    text-align: center;
 }
 
 @media(max-width:1200px) {
