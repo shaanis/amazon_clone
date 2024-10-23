@@ -9,11 +9,13 @@
     width: 100vw;
     background-image: linear-gradient(to bottom, #bf63e0, #d810a3, #dc47a6, #923579, #c5bcd7);
 }
-body{
+
+body {
     overflow-x: hidden;
     background-image: linear-gradient(to bottom, #c6b6c2, #c5bcd7);
 
 }
+
 .navbar1 {
 
     background-color: rgb(2, 2, 64);
@@ -23,16 +25,17 @@ body{
     position: fixed;
     margin-top: 40px;
     z-index: 11;
-  
+
 }
 
- .offcanvas-header {
+.offcanvas-header {
     margin-top: 40px;
     background-color: rgb(29, 4, 59);
 }
 
-.offcanvas-body{
-    max-height: 100vh; overflow-y: auto;
+.offcanvas-body {
+    max-height: 100vh;
+    overflow-y: auto;
 }
 
 .profile {
@@ -52,21 +55,21 @@ body{
     text-align: center;
 }
 
- #alignTrend {
+#alignTrend {
     display: flex;
     justify-content: space-between;
 }
 
 #alignTrend p {
     margin-top: -3.5px;
-    font-weight:500
+    font-weight: 500
 }
 
 #alignTrend i {
     margin-top: 3px;
 }
 
-#offcanLink{
+#offcanLink {
     text-decoration: none;
     color: rgb(56, 56, 56);
 }
@@ -82,12 +85,14 @@ body{
     background-color: rgb(181, 178, 178);
     color: black;
 
-} 
-.digi a{
+}
+
+.digi a {
     text-decoration: none;
     color: black;
 }
-.shopcat a{
+
+.shopcat a {
     text-decoration: none;
     color: black;
 }
@@ -196,6 +201,7 @@ button :focus {
 button span {
     font-size: 12px;
 }
+
 .dropdown-menu {
     width: 380px;
 }
@@ -212,9 +218,11 @@ button span {
     margin-left: 27px;
 
 }
-.accRightside{
+
+.accRightside {
     margin-left: -80px;
 }
+
 .order a {
     text-align: justify;
     text-decoration: none;
@@ -254,46 +262,49 @@ button span {
 }
 
 
-.carButton{
+.carButton {
     margin-top: -100px;
-   
 
-    border: 10px solid #007bff; /* Border color and thickness */
-    border-radius: 5px;        /* Optional: rounded corners */
-    padding: 35px;              /* Optional: padding for spacing */
+
+    border: 10px solid #007bff;
+    /* Border color and thickness */
+    border-radius: 5px;
+    /* Optional: rounded corners */
+    padding: 35px;
+    /* Optional: padding for spacing */
     background-color: transparent;
 }
 
 .greatSale {
-    position: relative; 
+    position: relative;
     width: 100%;
     height: 100vh;
-    white-space: nowrap; 
+    white-space: nowrap;
     padding-top: 80px;
-  
+
 }
 
 .carousel-inner {
-    display: flex; 
+    display: flex;
 }
 
 .carousel-item {
     flex: 0 0 auto;
-    width: 100%;  
+    width: 100%;
 }
-   
+
 
 
 .allCard {
     position: absolute;
-     z-index: 10; 
+    z-index: 10;
     display: flex;
     margin-top: -400px;
     margin-left: 120px;
     align-content: center;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -310,7 +321,7 @@ button span {
 }
 
 
-.cardHead{
+.cardHead {
     margin-top: 10px;
     font-size: .75rem;
     font-weight: 650;
@@ -318,9 +329,10 @@ button span {
     line-height: 16.5px;
     margin-left: 35px;
     color: black;
-    
+
 }
-#card2 .cardHead{
+
+#card2 .cardHead {
     padding-top: 8px;
     margin-left: 15px;
 }
@@ -338,7 +350,7 @@ button span {
     font-weight: 600;
     color: rgb(34, 122, 49);
     margin-left: -110px;
-    
+
 }
 
 .explore:hover {
@@ -349,27 +361,30 @@ button span {
     text-decoration: none;
 }
 
-.girls{
+.girls {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-content: center;
     margin-top: -15px;
 }
-.girlsItem{
-  margin-top: 20px;
+
+.girlsItem {
+    margin-top: 20px;
 }
 
-.girlsHead{
+.girlsHead {
     text-align: start;
     margin-left: 14px;
     font-size: 12px;
 }
-.sec2{
+
+.sec2 {
     /* background-color: rgb(116, 116, 114); */
     height: 100vh;
     margin-top: -20px;
 }
-  .container1{
+
+.container1 {
     margin-top: 50px;
     margin-left: 25px;
     margin-right: 20px;
@@ -377,83 +392,103 @@ button span {
     background-color: rgb(234, 216, 115);
     height: 450px;
     padding: 10px;
-  }
-  .scroll {
+}
+
+.scroll {
     display: flex;
     overflow-x: auto;
-    overflow-y: hidden; /* Ensures no vertical scrolling */
-    gap: 1rem; /* Adds space between the cards */
-    padding: 1rem 0; /* Optional padding for better appearance */
-    scroll-behavior: smooth; /* Smooth scrolling effect */
-    width: 100%; /* Ensure the container takes full width */
-  }
-  
-  .card {
-    flex: 0 0 auto; /* Prevents cards from shrinking */
-    width: 18rem; /* Consistent card width */
-    height: 22rem; /* Consistent card height */
-  }
-  .scroll::-webkit-scrollbar {
-    display: none;
-  }
-  
+    overflow-y: hidden;
+    /* Ensures no vertical scrolling */
+    gap: 1rem;
+    /* Adds space between the cards */
+    padding: 1rem 0;
+    /* Optional padding for better appearance */
+    scroll-behavior: smooth;
+    /* Smooth scrolling effect */
+    width: 100%;
+    /* Ensure the container takes full width */
+}
 
-  .card-title{
+.card {
+    flex: 0 0 auto;
+    /* Prevents cards from shrinking */
+    width: 18rem;
+    /* Consistent card width */
+    height: 22rem;
+    /* Consistent card height */
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card-title {
     font-size: 12px;
     font-weight: bold;
 }
-.card-title .off{
+
+.card-title .off {
     background-color: rgb(184, 6, 6);
     padding: 2px;
     border-radius: 3px;
     text-align: center;
 }
-sup{
+
+sup {
     margin-left: -3.5px;
 }
 
 
 
 
-.desc{
+.desc {
     font-size: 14px;
     margin-top: -19px;
 }
-.back{
+
+.back {
     display: flex;
     height: 430px;
 
 }
-.container2{
+
+.container2 {
     background-color: white;
     width: 22.9%;
     height: 380px;
-   margin-top: 50px;
-   margin-left: 20px;
-   border-radius: 2px;
-   
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 2px;
+
 }
-.container2 .girls{
+
+.container2 .girls {
     /* margin-left: 30px; */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-   justify-content: center;
-   align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
 }
-.offr{
+
+.offr {
     color: green;
 }
-.offr:hover{
+
+.offr:hover {
     color: rgb(175, 20, 20);
 }
-.uptoText{
+
+.uptoText {
     font-size: 10px;
     font-weight: 500;
 }
-.sectionName{
+
+.sectionName {
     margin-top: -15px;
 }
-.signup{
+
+.signup {
     width: 100%;
     background-color: white;
     height: 200px;
@@ -464,18 +499,20 @@ sup{
     align-items: center;
     justify-content: center;
 }
-.signBorder{
-  width: 100%;
-  height: 150px;
-  border: 1px solid rgb(185, 185, 185);
-  border-radius: 3px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
- 
+
+.signBorder {
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
-.signButton{
+
+.signButton {
     width: 200px;
     height: 30px;
     border: none;
@@ -485,22 +522,116 @@ sup{
     font-size: 12px;
 }
 
+.newUser {
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 500;
+}
 
-@media(max-width:1200px){
-    .allCard{
+.newUser span {
+    color: rgb(54, 170, 133);
+}
+
+.newUser a {
+    text-decoration: none;
+}
+
+.newUser span:hover {
+    color: red;
+}
+
+.backtop {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(62, 62, 68);
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+}
+.mainFooter{
+    height: 500px;
+    width: 100%;
+    background-color: #1a1355;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centerDiv{
+    height: 400px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    padding: 40px;
+}
+.knowUs{
+    display: flex;
+    flex-direction: column;
+}
+.knowUs a{
+    color: white;
+    line-height: 28px;
+}
+.knowUs a:hover{
+    text-decoration: underline;
+}
+.hrDiv hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+.underHrDiv{
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.lastdrop{
+    border: 1px solid white;
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+
+   
+}
+.flagBorder{
+    display: flex;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.flagBorder p{
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+@media(max-width:1200px) {
+    .allCard {
         flex-wrap: wrap;
         margin-left: 10px;
         margin-top: -400px;
     }
-    .cards{
-        
+
+    .cards {
+
         margin: 10px;
     }
-    .sec2{
-        
+
+    .sec2 {
+
         margin-top: -350px;
     }
-    .container1{
+
+    .container1 {
         margin-top: 560px;
     }
 }
