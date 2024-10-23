@@ -651,16 +651,18 @@ footer a{
         flex-wrap: wrap;
         margin-left: 10px;
         margin-top: -400px;
+      
     }
 
     .cards {
 
         margin: 10px;
     }
+    
 
     .sec2 {
 
-        margin-top: -350px;
+        margin-top: 720px;
     }
 
     .container1 {
@@ -668,17 +670,30 @@ footer a{
     }
 }
 
-/* @media(max-width:1000px){
-    .allCard{
-        flex-wrap: wrap;
-        margin-left: -50px;
+@media(max-width:768px) {
+    .allCard {
         margin-top: -500px;
+        margin-left: 0;
+    
+    
     }
-    .cards{
-        margin: 10px;
+    .block{
+        margin-top: 50px;
     }
-    .sec2{
-        
-        margin-top: -350px;
+    .back{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 97%;
+        /* background-color: red; */
+        /* margin-top: -80px; */
+        height: 880px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-} */
+    .container2{
+        width: 300px;
+    }
+    
+    
+}
+
