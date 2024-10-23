@@ -1,15 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .section1 {
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
-
+    background-image: linear-gradient(to bottom, #bf63e0, #d810a3, #dc47a6, #923579, #c5bcd7);
 }
 body{
     overflow-x: hidden;
+    background-image: linear-gradient(to bottom, #c6b6c2, #c5bcd7);
+
 }
 .navbar1 {
 
@@ -362,11 +365,126 @@ button span {
     font-size: 12px;
 }
 .sec2{
-    background-color: rgb(247, 228, 24);
+    /* background-color: rgb(116, 116, 114); */
     height: 100vh;
     margin-top: -20px;
 }
+  .container1{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+    width: 95%;
+    background-color: rgb(234, 216, 115);
+    height: 450px;
+    padding: 10px;
+  }
+  .scroll {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden; /* Ensures no vertical scrolling */
+    gap: 1rem; /* Adds space between the cards */
+    padding: 1rem 0; /* Optional padding for better appearance */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    width: 100%; /* Ensure the container takes full width */
+  }
   
+  .card {
+    flex: 0 0 auto; /* Prevents cards from shrinking */
+    width: 18rem; /* Consistent card width */
+    height: 22rem; /* Consistent card height */
+  }
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  .card-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.card-title .off{
+    background-color: rgb(184, 6, 6);
+    padding: 2px;
+    border-radius: 3px;
+    text-align: center;
+}
+sup{
+    margin-left: -3.5px;
+}
+
+
+
+
+.desc{
+    font-size: 14px;
+    margin-top: -19px;
+}
+.back{
+    display: flex;
+    height: 430px;
+
+}
+.container2{
+    background-color: white;
+    width: 22.9%;
+    height: 380px;
+   margin-top: 50px;
+   margin-left: 20px;
+   border-radius: 2px;
+   
+}
+.container2 .girls{
+    /* margin-left: 30px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   align-items: center;
+}
+.offr{
+    color: green;
+}
+.offr:hover{
+    color: rgb(175, 20, 20);
+}
+.uptoText{
+    font-size: 10px;
+    font-weight: 500;
+}
+.sectionName{
+    margin-top: -15px;
+}
+.signup{
+    width: 100%;
+    background-color: white;
+    height: 200px;
+    margin-top: 30px;
+    padding-right: 15px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signBorder{
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.signButton{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 204, 0);
+    font-weight: 500;
+    font-size: 12px;
+}
+
 
 @media(max-width:1200px){
     .allCard{
@@ -375,11 +493,15 @@ button span {
         margin-top: -400px;
     }
     .cards{
+        
         margin: 10px;
     }
     .sec2{
         
         margin-top: -350px;
+    }
+    .container1{
+        margin-top: 560px;
     }
 }
 
