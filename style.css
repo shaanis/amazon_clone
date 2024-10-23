@@ -707,7 +707,20 @@ footer a{
     }
     .centerDiv{
         margin-top: 0;
-        height: 600px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
+    .blackOuter{
+        height: 600px;
+        
+    }
+    .blackFooter{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+    }
+    
 }
+
 
