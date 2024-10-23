@@ -574,10 +574,11 @@ footer a{
 .knowUs{
     display: flex;
     flex-direction: column;
+  column-gap: 50px;
 }
 .knowUs a{
     color: white;
-    line-height: 28px;
+   
 }
 .knowUs a:hover{
     text-decoration: underline;
@@ -668,6 +669,14 @@ footer a{
     .container1 {
         margin-top: 560px;
     }
+    /* .mainFooter{
+        height: 100%;
+    }
+    .centerDiv{
+        margin-top: 0;
+       background-color: red;
+        height: 600px;
+    } */
 }
 
 @media(max-width:768px) {
@@ -693,7 +702,13 @@ footer a{
     .container2{
         width: 300px;
     }
-    
-    
+    .mainFooter{
+        height: 100%;
+    }
+    .centerDiv{
+        margin-top: 0;
+       background-color: red;
+        height: 600px;
+    }
 }
 
