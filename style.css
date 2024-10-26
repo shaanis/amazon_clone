@@ -760,8 +760,6 @@ footer a{
      padding-top: 20px;
         height: 500px;
         font-size: 13px;
-        /* display: grid;
-        grid-template-columns: repeat(2,1fr); */
         gap: 25px;
         
         
@@ -769,6 +767,19 @@ footer a{
     .knowUs h5{
         font-size: 13px;
     }
+     .footContent{
+        font-size: 13px;
+       margin-left: 20px;
+     }
+     .condition{
+       
+        font-size: 12px;
+        padding: 20px;
+     }
+     .copy{
+        font-size: 13px;
+        font-weight: bold;
+     }
 }
 
 
