@@ -755,6 +755,12 @@ footer a{
     .signup{
         margin-top: 850px;
     }
+    .mainFooter{
+        margin-top: 180px;
+        height: 700px;
+        justify-items: center;
+        
+    }
 }
 
 
