@@ -749,6 +749,12 @@ footer a{
 
         justify-items: center;
     }
+    .blackOuter{
+        height: 1000px;
+    }
+    .signup{
+        margin-top: 850px;
+    }
 }
 
 
