@@ -27,6 +27,59 @@ body {
     z-index: 11;
 
 }
+.srchdrop:hover{
+    border: 2px solid rgb(200, 143, 9);
+    height: 35px;
+}
+.catMenu{
+    overflow-y: scroll;
+    height: 500px;
+}
+.srchdrop .catMenu a{
+    font-weight: 500;
+   
+}
+.srchdrop .catMenu a:hover{
+    background-color: #1a1355;
+    color: white;
+}
+
+
+/* Top arrow */
+.catMenu::-webkit-scrollbar-button:single-button:decrement {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"%3E%3Cpath fill="%23888888" d="M12 8l-6 6h12z"/%3E%3C/svg%3E') no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-color: #f1f1f1; /* Matches scrollbar track background */
+   /* Optional for rounded corners */
+  }
+  
+  /* Bottom arrow */
+  .catMenu::-webkit-scrollbar-button:single-button:increment {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"%3E%3Cpath fill="%23888888" d="M12 16l6-6H6z"/%3E%3C/svg%3E') no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-color: #f1f1f1; /* Matches scrollbar track background */
+     /* Optional for rounded corners */
+  }
+  
+  /* Scrollbar track and thumb */
+  .catMenu::-webkit-scrollbar {
+    width: 12px;
+    scroll-behavior: smooth;
+  }
+  
+  .catMenu::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the scrollbar track */
+  }
+  
+  .catMenu::-webkit-scrollbar-thumb {
+    background-color: #888888; /* Thumb color */
+    border-radius: 6px;
+  }
+  
+
+
 
 .offcanvas-header {
     margin-top: 40px;
