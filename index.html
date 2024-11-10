@@ -81,15 +81,46 @@
       </div>
       <div class="langIcon">
         <div class="dropdown d-flex ">
-          <button class="btn dropdown-toggle text-light fs-50 " id="btn" type="button" data-bs-toggle="dropdown"
+          <button class="btn dropdown-toggle text-light fs-50  " id="btn" type="button" data-bs-toggle="dropdown"
             aria-expanded="false" style="height: 40px; border: none; ">
             <img src="./images/flag.png" class="langimg" style="height: 20px;" alt=""> <span class="text-light fw-bold "
               id="eng">EN</span>
           </button>
-          <ul class="dropdown-menu" style="width: 200px;">
-            <li><a class="dropdown-item" href="#">English</a></li>
-            <li><a class="dropdown-item" href="#">Malayalam</a></li>
-            <li><a class="dropdown-item" href="#">Arabic</a></li>
+          <ul class="dropdown-menu langdrop " style="width: 200px;">
+            <form>
+              <label>
+                <input class="color" type="radio" name="option" value="option1" checked>
+                English - EN
+              </label>
+              <br>
+              <hr class="ms-2 me-4">
+              <label>
+                <input class="color" type="radio" name="option" value="option2">
+                മലയാളം - ML
+              </label>
+              <br>
+              <label>
+                <input class="color" type="radio" name="option" value="option2">
+                हिन्दी - HI
+              </label>
+              <br>
+              <label>
+                <input class="color" type="radio" name="option" value="option2">
+                తెలుగు - TE
+              </label>
+              <br>
+              <label>
+                <input class="color" type="radio" name="option" value="option3">
+                ಕನ್ನಡ - KN
+              </label>
+              <br>
+              <label>
+                <input class="color" type="radio" name="option" value="option3">
+                मराठी - MR
+              </label>
+              
+
+            </form>
           </ul>
         </div>
       </div>
@@ -103,10 +134,15 @@
             <span class="accList text-light">Account & Lists</span>
           </p>
         </button>
-        <div class="dropdown-menu" style="min-width: 300px; ">
+        <div class="dropdown-menu " style="min-width: 300px; ">
+          <div class="AccSignIn">
+              <button class="signButton">Sign in</button>
+              <p class="newUser">New customer? <a href=""><span>Start here.</span></a></p>
+          </div>
           <div class="row">
             <!-- Left Side (Links) -->
             <div class="col-6">
+              <h4>Your Lists</h4>
               <a class="dropdown-item" href="#">Link 1</a>
               <a class="dropdown-item" href="#">Link 2</a>
               <a class="dropdown-item" href="#">Link 3</a>
